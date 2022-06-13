@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .form1{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aquamarine;
+    }
+    h1{
+        text-align: center;
+        background-color: bisque;
+    }
+    h2{
+        display: inline-block;
+    }
+    .form2{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(195, 210, 30);
+    }
+</style>
+<body>
+    
+    <div class="form1">
+            <form method="get" action="excercise.html">
+            <h1>Sở thích của bạn</h1>
+            <h2> Họ và tên:</h2> 
+            <input type="text" name="name" placeholder="Your name"> <br>
+            <h2> Email:</h2> 
+            <input type="email" name="email" placeholder="Email"> <br>
+            <h2>Sở thích</h2>
+            <input type="checkbox" name="hobby">  Thể thao
+            <input type="checkbox" name="hobby">  Âm nhạc
+            <input type="checkbox" name="hobby">  Đọc sách
+            <input type="checkbox" name="hobby">  Chơi game
+            <input type="checkbox" name="hobby">  Lướt web
+            <input type="checkbox" name="hobby">  Điện ảnh
+            <input type="checkbox" name="hobby">  Du lịch
+            <br>
+                <button type="submit"> Gửi thông tin</button>
+                <button type="submit"> Nhập lại</button>
+     </form>
+    </div>
+    <div class="form2">
+        <form method="get" action="">
+            <h1>Đăng kí học viên</h1>
+            <h2>Họ và tên </h2>
+            <input type="text" name="Name" placeholder="your name"> <br>
+            <h2>Ngày sinh</h2>
+            <input type="date" name="date" >
+            <h2>Giới tính</h2>
+            <input type="radio" name="gender" value="male" >Nam <br>
+            <input type="radio" name="gender" value="famale"> Nữ <br>
+            <h2 >Địa chỉ</h2>
+            <textarea name="" cols="20" rows="4"></textarea> <br>
+            <h2>Lớp</h2>
+            <select name="class" id="">
+                <option value="">Chọn lớp</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+            </select>
+            <h2>Email</h2>
+            <input type="email" name="email" placeholder="Email">
+            <br>
+            <h2>SỐ điện thoại</h2>
+            <input type="number" name="phoneNumber" placeholder="Phone Number">
+            <br>
+            <button style="submit"> Đăng kí</button>
+            <button style="submit"> Đăng nhập</button>
+     </form>
+    </div>
+</body>
+</html>
